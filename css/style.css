@@ -27,6 +27,14 @@ header{
     display: flex;
     flex-direction: column;
 }
+footer{
+    height: 400px;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 /*barra di navigazione*/
 
@@ -114,4 +122,43 @@ header{
     border: 1px solid brown;
     min-height: 90%;
     flex-basis: 100%;
+}
+/*footer*/
+.top-footer{
+    background-color: bisque;
+    flex-basis: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.piccolo{
+    background-color: pink;
+    height: 100%;
+    width: 30%;
+}
+.grande{
+    border: 1px dashed blue;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+.col{
+    border: 1px solid white;
+    width: 25%;
+}
+.bottom-footer{
+    background-color: aliceblue;
+    flex-basis: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.bottone{
+    height: 20px;
+    width: 40px;
+    background-color: blue;
 }
