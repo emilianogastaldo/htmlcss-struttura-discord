@@ -5,6 +5,21 @@
     box-sizing: border-box;
 }
 
+/*Generics*/
+
+body{
+    background-color: blueviolet;
+}
+
+
+/*utilities*/
+
+.w-900{
+    max-width: 900px;
+}
+
+
+
 /*header*/
 header{
     height: 400px;
@@ -14,6 +29,7 @@ header{
 }
 
 /*barra di navigazione*/
+
 .top-header{
     background-color: aliceblue;
     flex-basis: 15%;
@@ -22,7 +38,6 @@ header{
     align-items: center;
 }
 .nav-conteiner{
-    max-width: 900px;
     flex-basis: 100%;
     display: flex;   
 }
@@ -52,3 +67,37 @@ header{
     flex-basis: 30%;
 }
 
+/*Main*/
+/*creo una prima sezione per la foto e il testo*/
+.odd{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.section-conteiner{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-basis: 100%;
+}
+.box-image{
+    background-color: violet;
+    border: 1px  solid red;
+    flex-basis: 30%;
+    min-height: 300px;
+}
+.box-text{
+    background-color: pink;
+    border: 1px  solid red;
+    flex-basis: 70%;
+    min-height: 300px;
+
+}
+.even{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
