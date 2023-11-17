@@ -101,3 +101,17 @@ header{
     justify-content: center;
     align-items:center;
 }
+
+.section-bb{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-basis: 100%;
+}
+.box-big{
+    background-color: green;
+    border: 1px solid brown;
+    min-height: 90%;
+    flex-basis: 100%;
+}
