@@ -1,0 +1,54 @@
+/*CSS reset*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+header{
+    height: 400px;
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: column;
+}
+
+/*barra di navigazione*/
+.top-header{
+    background-color: aliceblue;
+    flex-basis: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-conteiner{
+    max-width: 900px;
+    flex-basis: 100%;
+    display: flex;   
+}
+.box{
+    border: 1px dashed black;
+    min-height: 30px;
+    flex-basis: 25%;
+    background-color: orange;
+}
+.links{
+    border: 1px dashed blue;
+    min-height: 30px;
+    flex-basis: 75%; 
+    background-color: orange;
+}
+.bottom-header{
+    background-color: bisque;
+    flex-basis: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-header{
+    background-color: lightgreen;
+    border: 1px dotted blue;
+    min-height: 80%;
+    flex-basis: 30%;
+}
+
